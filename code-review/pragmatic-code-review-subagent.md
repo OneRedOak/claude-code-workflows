@@ -1,7 +1,56 @@
 ---
 name: pragmatic-code-review
-description: Use this agent when you need a thorough code review that balances engineering excellence with development velocity. This agent should be invoked after completing a logical chunk of code, implementing a feature, or before merging a pull request. The agent focuses on substantive issues but also addresses style.\n\nExamples:\n- <example>\n  Context: After implementing a new API endpoint\n  user: "I've added a new user authentication endpoint"\n  assistant: "I'll review the authentication endpoint implementation using the pragmatic-code-review agent"\n  <commentary>\n  Since new code has been written that involves security-critical functionality, use the pragmatic-code-review agent to ensure it meets quality standards.\n  </commentary>\n</example>\n- <example>\n  Context: After refactoring a complex service\n  user: "I've refactored the payment processing service to improve performance"\n  assistant: "Let me review these refactoring changes with the pragmatic-code-review agent"\n  <commentary>\n  Performance-critical refactoring needs review to ensure improvements don't introduce regressions.\n  </commentary>\n</example>\n- <example>\n  Context: Before merging a feature branch\n  user: "The new dashboard feature is complete and ready for review"\n  assistant: "I'll conduct a comprehensive review using the pragmatic-code-review agent before we merge"\n  <commentary>\n  Complete features need thorough review before merging to main branch.\n  </commentary>\n</example>
-tools: Bash, Glob, Grep, Read, Edit, MultiEdit, Write, NotebookEdit, WebFetch, TodoWrite, WebSearch, BashOutput, KillBash, mcp__context7__resolve-library-id, mcp__context7__get-library-docs, ListMcpResourcesTool, ReadMcpResourceTool, mcp__playwright__browser_close, mcp__playwright__browser_resize, mcp__playwright__browser_console_messages, mcp__playwright__browser_handle_dialog, mcp__playwright__browser_evaluate, mcp__playwright__browser_file_upload, mcp__playwright__browser_fill_form, mcp__playwright__browser_install, mcp__playwright__browser_press_key, mcp__playwright__browser_type, mcp__playwright__browser_navigate, mcp__playwright__browser_navigate_back, mcp__playwright__browser_network_requests, mcp__playwright__browser_take_screenshot, mcp__playwright__browser_snapshot, mcp__playwright__browser_click, mcp__playwright__browser_drag, mcp__playwright__browser_hover, mcp__playwright__browser_select_option, mcp__playwright__browser_tabs, mcp__playwright__browser_wait_for
+description: >-
+  Use this agent when you need a thorough code review that balances
+  engineering excellence with development velocity. This agent should be invoked
+  after completing a logical chunk of code, implementing a feature, or before
+  merging a pull request. The agent focuses on substantive issues but also
+  addresses style.
+
+
+  Examples:
+
+  - <example>
+    Context: After implementing a new API endpoint
+    user: "I've added a new user authentication endpoint"
+    assistant: "I'll review the authentication endpoint implementation using the pragmatic-code-review agent"
+    <commentary>
+    Since new code has been written that involves security-critical functionality, use the pragmatic-code-review agent to ensure it meets quality standards.
+    </commentary>
+  </example>
+
+  - <example>
+    Context: After refactoring a complex service
+    user: "I've refactored the payment processing service to improve performance"
+    assistant: "Let me review these refactoring changes with the pragmatic-code-review agent"
+    <commentary>
+    Performance-critical refactoring needs review to ensure improvements don't introduce regressions.
+    </commentary>
+  </example>
+
+  - <example>
+    Context: Before merging a feature branch
+    user: "The new dashboard feature is complete and ready for review"
+    assistant: "I'll conduct a comprehensive review using the pragmatic-code-review agent before we merge"
+    <commentary>
+    Complete features need thorough review before merging to main branch.
+    </commentary>
+  </example>
+tools: Bash, Glob, Grep, Read, Edit, MultiEdit, Write, NotebookEdit, WebFetch,
+  TodoWrite, WebSearch, BashOutput, KillBash, mcp__context7__resolve-library-id,
+  mcp__context7__get-library-docs, ListMcpResourcesTool, ReadMcpResourceTool,
+  mcp__playwright__browser_close, mcp__playwright__browser_resize,
+  mcp__playwright__browser_console_messages,
+  mcp__playwright__browser_handle_dialog, mcp__playwright__browser_evaluate,
+  mcp__playwright__browser_file_upload, mcp__playwright__browser_fill_form,
+  mcp__playwright__browser_install, mcp__playwright__browser_press_key,
+  mcp__playwright__browser_type, mcp__playwright__browser_navigate,
+  mcp__playwright__browser_navigate_back,
+  mcp__playwright__browser_network_requests,
+  mcp__playwright__browser_take_screenshot, mcp__playwright__browser_snapshot,
+  mcp__playwright__browser_click, mcp__playwright__browser_drag,
+  mcp__playwright__browser_hover, mcp__playwright__browser_select_option,
+  mcp__playwright__browser_tabs, mcp__playwright__browser_wait_for
 model: opus
 color: red
 ---
