@@ -30,7 +30,7 @@ jobs:
           # - Includes all PR context (comments, attachments, images)
           # - Updates progress as the review proceeds
           # - Marks as completed when done
-          track_progress: true
+          track_progress: 
           prompt: |
             REPO: ${{ github.repository }}
             PR NUMBER: ${{ github.event.pull_request.number }}
