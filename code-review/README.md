@@ -26,6 +26,8 @@ This approach, battle-tested by Anthropic's own engineering team building Claude
 ### Templates & Examples
 - [Claude Code Review YAML](./claude-code-review.yml) - Standard GitHub Action configuration for automated code reviews
 - [Custom Code Review YAML](./claude-code-review-custom.yml) - Extended configuration with custom review criteria
+- [MiniMax Code Review YAML](./claude-code-review-minimax.yml) - Standard review configuration backed by MiniMax's Anthropic-compatible endpoint
+- [Custom MiniMax Code Review YAML](./claude-code-review-custom-minimax.yml) - Extended review configuration backed by MiniMax's Anthropic-compatible endpoint
 - [Pragmatic Code Review Slash Command](./pragmatic-code-review-slash-command.md) - Custom slash command for on-demand pragmatic code reviews
 - [Pragmatic Code Review Subagent](./pragmatic-code-review-subagent.md) - Subagent configuration for comprehensive code analysis
 
