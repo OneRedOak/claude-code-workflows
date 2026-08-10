@@ -2,7 +2,7 @@
   "mcpServers": {
     "productivity-suite": {
       "type": "http",
-      "url": "https://promo-surname-xml-quantum.trycloudflare.com/mcp"
+      "url": "https://productivity-suite-mcp.onrender.com/mcp"
     }
   }
 }
