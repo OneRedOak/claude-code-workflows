@@ -50,10 +50,10 @@ jobs:
           # ANTHROPIC_API_KEY (x-api-key).
           ANTHROPIC_AUTH_TOKEN: ${{ secrets.MINIMAX_API_KEY }}
         with:
-          # claude-api-key is provided so the action accepts the run; the
+          # anthropic_api_key is provided so the action accepts the run; the
           # ANTHROPIC_AUTH_TOKEN env var above takes precedence for the
           # Bearer auth MiniMax requires.
-          claude-api-key: ${{ secrets.MINIMAX_API_KEY }}
+          anthropic_api_key: ${{ secrets.MINIMAX_API_KEY }}
           # When track_progress is enabled:
           # - Creates a tracking comment with progress checkboxes
           # - Includes all PR context (comments, attachments, images)
