@@ -1,7 +1,23 @@
 # Claude Code Workflows
-The best workflows and configurations I've developed heavily using Claude Code since the day of it's release. Workflows are based off applied learnings from our AI-native startup. 
+Practical workflows, configurations, and companion guides from building with Claude Code at our AI-native startup. The guides also cover practices you can apply with Codex.
 
 Workflows are covered in detail with tutorials and demos on [Patrick Ellis' YouTube channel](https://www.youtube.com/@PatrickOakleyEllis).
+
+## Start here
+
+| If you want to… | Start with… |
+| --- | --- |
+| Build the context, tools, workflows, and verification around your agents | [The Orchestration Layer Playbook](./guides/orchestration-layer/) |
+| Browse downloadable companion guides | [Guide library](./guides/) |
+| Automate PR review | [Code review](./code-review/) |
+| Review security risks | [Security review](./security-review/) |
+| Review interfaces in the browser | [Design review](./design-review/) |
+
+## Featured guide: The Orchestration Layer Playbook
+
+A free, 16-page companion guide to building the four-pillar system around Claude Code and Codex: **context, tools, workflows, and verification**. Includes practical checklists, a review workflow, and a 30-day rollout plan.
+
+[Read the guide overview](./guides/orchestration-layer/) · [Download the PDF](./guides/orchestration-layer/orchestration-layer-playbook.pdf?raw=1) · [Browse tools and resources](./guides/orchestration-layer/resources.md)
 
 ## Workflows
 
