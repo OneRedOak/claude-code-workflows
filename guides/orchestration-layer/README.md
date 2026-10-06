@@ -4,7 +4,7 @@ Build the system around Claude Code and Codex that supports longer, more indepen
 
 **[Download the free PDF](./orchestration-layer-playbook.pdf?raw=1)** · [Tools and resources](./resources.md) · [Copyable templates](./templates/)
 
-**Edition:** 1.1 · **Revised:** September 28, 2026 · **Length:** 16 pages · **Author:** Patrick Ellis
+**Edition:** 1.2 · **Revised:** October 6, 2026 · **Length:** 16 pages · **Author:** Patrick Ellis
 
 ## Who this is for
 
@@ -30,11 +30,11 @@ Engineers and founders who already use coding agents and want a repeatable proce
 3. Use the [review triage excerpt](./templates/review-triage.md) to make review decisions explicit.
 4. Follow the 30-day rollout on page 15, proving one improvement each week.
 
-The examples are starting points. Replace example commands and paths with your project's actual checks before using them. The triage excerpt is not a complete installable skill.
+The PDF explains the workflows and includes adapted examples; it does not include the complete custom `review-and-push`, `sentry-fixes`, or manager-agent implementations shown in the video. Replace example commands and paths with your project's actual checks before using the templates. The triage excerpt is a decision aid, not a complete installable skill.
 
 ## Companion video
 
-Prepared for **“It's Not the Model. It's Your Harness.”** Timestamps in the PDF refer to that video's final edit. The direct video link will be added when it is published; find published tutorials on [Patrick Ellis' YouTube channel](https://www.youtube.com/@PatrickOakleyEllis).
+Companion to Patrick's video on the four-pillar workflow around Claude Code and Codex. PDF timestamps use elapsed playback time in the **October 5, 2026 evergreen edit (30:54)**, anchored to the existing captions and verified edit map. The direct video link will be added when it is published; find published tutorials on [Patrick Ellis' YouTube channel](https://www.youtube.com/@PatrickOakleyEllis).
 
 ## Related workflows
 
@@ -44,6 +44,7 @@ Prepared for **“It's Not the Model. It's Your Harness.”** Timestamps in the 
 
 ## Revision history
 
+- **1.2 — October 6, 2026:** Clarified that the guide contains workflow explanations and adapted excerpts, not complete custom skill files. Re-anchored all 49 timestamp references to the October 5 evergreen edit. Made the resource-page URLs clickable and added a link to this repository. Preserved the 16-page layout.
 - **1.1 — September 28, 2026:** First repository edition. Replaced numbered model references and model-release comparisons with “Fable and Astra class models.” Cover labels now identify Claude Code and Codex. Removed release-specific timing language from the revised passages; clarified that agent nesting depends on tools and runtime. Added web-readable resources and two copyable excerpts alongside the PDF. Preserved the 16-page layout.
 - **1.0 — 2026:** Original companion PDF.
 

@@ -4,7 +4,7 @@ Free playbooks to accompany [Patrick Ellis' videos](https://www.youtube.com/@Pat
 
 | Guide | What you'll build | Edition |
 | --- | --- | --- |
-| [The Orchestration Layer Playbook](./orchestration-layer/) | Context, tools, workflows, and verification for Claude Code and Codex | 1.1 · September 28, 2026 |
+| [The Orchestration Layer Playbook](./orchestration-layer/) | Context, tools, workflows, and verification for Claude Code and Codex | 1.2 · October 6, 2026 |
 
 Each guide has its own folder. Start with its overview, download the PDF for offline reading, and use its resource list for clickable links. You do not need to clone this repository or create a GitHub account to download a guide.
 
