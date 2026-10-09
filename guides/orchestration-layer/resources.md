@@ -1,6 +1,6 @@
 # Tools and resources
 
-A clickable companion to *The Orchestration Layer Playbook*. These links provide context and implementation documentation; they are not a requirement to install every tool. Use the [PDF](./orchestration-layer-playbook.pdf?raw=1) for the framework and rollout plan.
+A clickable companion to *The Orchestration Layer Playbook*. These links provide context and implementation documentation; they are not a requirement to install every tool. Use the [PDF](https://raw.githubusercontent.com/OneRedOak/claude-code-workflows/main/guides/orchestration-layer/orchestration-layer-playbook.pdf) for the framework and rollout plan.
 
 ## Workflows and task management
 
