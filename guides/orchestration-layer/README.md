@@ -2,7 +2,7 @@
 
 Build the system around Claude Code and Codex that supports longer, more independent work: **context, tools, workflows, and verification**.
 
-**[Download the free PDF](./orchestration-layer-playbook.pdf?raw=1)** · [Tools and resources](./resources.md) · [Copyable templates](./templates/)
+**[Download the free PDF](https://raw.githubusercontent.com/OneRedOak/claude-code-workflows/main/guides/orchestration-layer/orchestration-layer-playbook.pdf)** · [Tools and resources](./resources.md) · [Copyable templates](./templates/)
 
 No signup required. For practical workflows and hard-won lessons from my journey becoming an AI-native founder, [join my newsletter](https://bhi-patrickellis.beehiiv.com/) (optional).
 

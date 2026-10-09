@@ -17,7 +17,7 @@ Workflows are covered in detail with tutorials and demos on [Patrick Ellis' YouT
 
 A free, 16-page companion guide to building the four-pillar system around Claude Code and Codex: **context, tools, workflows, and verification**. Includes practical checklists, a review workflow, and a 30-day rollout plan.
 
-**[Download the free PDF](./guides/orchestration-layer/orchestration-layer-playbook.pdf?raw=1)** · [Read the guide overview](./guides/orchestration-layer/) · [Browse tools and resources](./guides/orchestration-layer/resources.md)
+**[Download the free PDF](https://raw.githubusercontent.com/OneRedOak/claude-code-workflows/main/guides/orchestration-layer/orchestration-layer-playbook.pdf)** · [Read the guide overview](./guides/orchestration-layer/) · [Browse tools and resources](./guides/orchestration-layer/resources.md)
 
 Optional: [Join my newsletter](https://bhi-patrickellis.beehiiv.com/) for practical workflows and hard-won lessons as I build with Claude Code, Codex, Cursor, Gemini, ChatGPT, n8n, and image and video tools. The guide is free; no signup is required.
 
