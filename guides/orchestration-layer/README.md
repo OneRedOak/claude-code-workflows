@@ -4,6 +4,8 @@ Build the system around Claude Code and Codex that supports longer, more indepen
 
 **[Download the free PDF](./orchestration-layer-playbook.pdf?raw=1)** · [Tools and resources](./resources.md) · [Copyable templates](./templates/)
 
+No signup required. For practical workflows and hard-won lessons from my journey becoming an AI-native founder, [join my newsletter](https://bhi-patrickellis.beehiiv.com/) (optional).
+
 **Edition:** 1.2 · **Revised:** October 6, 2026 · **Length:** 16 pages · **Author:** Patrick Ellis
 
 ## Who this is for
@@ -51,5 +53,7 @@ Companion to Patrick's video on the four-pillar workflow around Claude Code and 
 ## Keep going
 
 Follow [Patrick on YouTube](https://www.youtube.com/@PatrickOakleyEllis) for future tutorials, or visit [patrickellis.io](https://patrickellis.io) for more of his work.
+
+If this guide helps, a [star on the repository](https://github.com/OneRedOak/claude-code-workflows) makes it easy to find again.
 
 [All guides](../README.md) · [Repository home](../../README.md)
