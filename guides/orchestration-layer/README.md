@@ -28,11 +28,10 @@ Engineers and founders who already use coding agents and want a repeatable proce
 ## Start using it
 
 1. Read the four-pillar framework on page 4 and identify the weakest part of your setup.
-2. Adapt the [agent onboarding template](./templates/CLAUDE.md.example) to your repository.
-3. Use the [review triage excerpt](./templates/review-triage.md) to make review decisions explicit.
-4. Follow the 30-day rollout on page 15, proving one improvement each week.
+2. Use the [review triage excerpt](./templates/review-triage.md) to make review decisions explicit, and the [review skill principles](./templates/review-skill-example.md) to see how those rules fit into a full review-and-push loop.
+3. Follow the 30-day rollout on page 15, proving one improvement each week.
 
-The PDF explains the workflows and includes adapted examples; it does not include the complete custom `review-and-push`, `sentry-fixes`, or manager-agent implementations shown in the video. Replace example commands and paths with your project's actual checks before using the templates. The triage excerpt is a decision aid, not a complete installable skill.
+The PDF explains the workflows and includes adapted examples; it does not include the complete custom `review-and-push`, `sentry-fixes`, or manager-agent implementations shown in the video. Replace example commands and paths with your project's actual checks before using the templates. The triage excerpt and review skill principles are decision aids, not complete installable skills.
 
 ## Companion video
 

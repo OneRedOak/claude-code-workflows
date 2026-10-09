@@ -34,4 +34,6 @@ Record every decision in a triage manifest, including skips. Disagreement is all
 | --- | --- | --- | --- | --- | --- |
 | {comment or finding link} | {code location or reproduction} | {high/medium/low} | {act/skip with reply/skip without reply} | {why} | {commit and validation, if applicable} |
 
+To see how these rules fit into the full workflow, from preflight to CI monitoring, read the [review skill principles](./review-skill-example.md).
+
 [Back to the guide](../README.md)
