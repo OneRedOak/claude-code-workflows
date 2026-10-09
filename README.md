@@ -1,7 +1,25 @@
 # Claude Code Workflows
-The best workflows and configurations I've developed heavily using Claude Code since the day of it's release. Workflows are based off applied learnings from our AI-native startup. 
+Practical workflows, configurations, and companion guides from my journey becoming an AI-native founder, for founders and software engineers building faster and smarter with AI.
 
 Workflows are covered in detail with tutorials and demos on [Patrick Ellis' YouTube channel](https://www.youtube.com/@PatrickOakleyEllis).
+
+## Start here
+
+| If you want to… | Start with… |
+| --- | --- |
+| Build the context, tools, workflows, and verification around your agents | [The Orchestration Layer Playbook](./guides/orchestration-layer/) |
+| Browse downloadable companion guides | [Guide library](./guides/) |
+| Automate PR review | [Code review](./code-review/) |
+| Review security risks | [Security review](./security-review/) |
+| Review interfaces in the browser | [Design review](./design-review/) |
+
+## Featured guide: The Orchestration Layer Playbook
+
+A free, 16-page companion guide to building the four-pillar system around Claude Code and Codex: **context, tools, workflows, and verification**. Includes practical checklists, a review workflow, and a 30-day rollout plan.
+
+**[Download the free PDF](./guides/orchestration-layer/orchestration-layer-playbook.pdf?raw=1)** · [Read the guide overview](./guides/orchestration-layer/) · [Browse tools and resources](./guides/orchestration-layer/resources.md)
+
+Optional: [Join my newsletter](https://bhi-patrickellis.beehiiv.com/) for practical workflows and hard-won lessons as I build with Claude Code, Codex, Cursor, Gemini, ChatGPT, n8n, and image and video tools. The guide is free; no signup is required.
 
 ## Workflows
 
@@ -16,4 +34,4 @@ An automated design review system that provides comprehensive feedback on front-
 
 ---
 
-*More workflows coming soon...*
+If these workflows help, consider starring this repository so you can find it again.
