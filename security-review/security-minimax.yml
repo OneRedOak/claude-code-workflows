@@ -1,0 +1,56 @@
+name: Security Review (MiniMax)
+
+permissions:
+  pull-requests: write  # Needed for leaving PR comments
+  contents: read
+
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      minimax_model:
+        description: MiniMax chat model id to use for the review
+        type: choice
+        options:
+          - MiniMax-M3
+          - MiniMax-M2.7
+        default: MiniMax-M3
+      minimax_region:
+        description: MiniMax API region (selects the Anthropic-compatible base URL)
+        type: choice
+        options:
+          - global
+          - cn
+        default: global
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 2
+
+      - uses: anthropics/claude-code-security-review@main
+        env:
+          # MiniMax exposes an Anthropic-compatible API. Route the underlying
+          # Claude Code SDK to the MiniMax endpoint for the selected region
+          # instead of the default Anthropic endpoint.
+          #   global -> https://api.minimax.io/anthropic
+          #   cn     -> https://api.minimaxi.com/anthropic
+          ANTHROPIC_BASE_URL: ${{ (inputs.minimax_region == 'cn' && 'https://api.minimaxi.com/anthropic') || 'https://api.minimax.io/anthropic' }}
+          # MiniMax authenticates with a Bearer token, so set
+          # ANTHROPIC_AUTH_TOKEN (Authorization: Bearer) rather than
+          # ANTHROPIC_API_KEY (x-api-key).
+          ANTHROPIC_AUTH_TOKEN: ${{ secrets.MINIMAX_API_KEY }}
+        with:
+          comment-pr: true
+          # claude-api-key is provided so the action accepts the run; the
+          # ANTHROPIC_AUTH_TOKEN env var above takes precedence for the
+          # Bearer auth MiniMax requires.
+          claude-api-key: ${{ secrets.MINIMAX_API_KEY }}
+          # MiniMax-M3 (1,000,000-token context) is the default; switch the
+          # workflow_dispatch input to MiniMax-M2.7 (204,800-token context) when needed.
+          claude-model: ${{ inputs.minimax_model || 'MiniMax-M3' }}
+          custom-security-scan-instructions: "" # Add any custom instructions specific to your codebase here.
